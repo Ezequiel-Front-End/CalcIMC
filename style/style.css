@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+    background: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+:root{
+    --color-background: #161623;
+    --color-background-input: --color-font;
+    --color-font: #fff;
+    --color-b-one: #191970;
+    --color-b-two: #483D8B;
+    --color-b-tree: #6959CD;
+}
+
+
+.card-form .titulo{
+    width: 100%;
+    text-align: center;
+    color: var(--color-font);
+}
+
+
+#formulario{
+    height: auto;
+    width: 40vh;
+    padding: 1rem;
+}
+
+#formulario .input-campo input{
+    margin-top: 5px;
+    padding: 0.90rem;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+#formulario .btn-campo input{
+    margin-top: 5px;
+    padding: 0.90rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: var(--color-b-tree);
+    color: var(--color-font);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    transition: all 0.2s ease;
+}
+
+#formulario .btn-campo input:hover{
+    cursor: pointer;
+    background:  #6c5ec7;
+}
+
+
+
+
